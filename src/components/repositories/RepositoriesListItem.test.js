@@ -85,7 +85,7 @@ test("shows a link to the code editor page", async () => {
   expect(link).toHaveAttribute("href", `/repositories/${repo.full_name}`);
 });
 
-// add a 0.1s
+// add a 0.1s pause
 const pause = () => {
   return new Promise((resolve) => {
     setTimeout(() => {
